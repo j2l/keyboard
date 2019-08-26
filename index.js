@@ -16,12 +16,12 @@ let myKeyboard = new Keyboard({
   ],
   'shift': [
     '~ @ # % & * _ | {bksp}',
-    'θ α β ε ψ γ δ λ ω ρ',
-    'א נ ג ד ה ו ז ח ט {enter}',
+    'Θ : Β Ε Ψ Γ Δ Λ Ω Ρ',
+    'א נ ג ד ה ו ז ח ט',
     'י כּ ל מ נ ס ע פּ =',
     'V I κ o צ ק ר ש ת',
-    '{shift} - \{ \} [ ] ( ) +',
-    '< > {space}' 
+    '{shift} - { } [ ] ( ) +',
+    '< > {space} {enter}'
   ]
 },
   buttonTheme: [
@@ -40,6 +40,10 @@ let myKeyboard = new Keyboard({
     {
       class: "love",
       buttons: "ג ד ט י פּ ק"
+    },
+	{
+      class: "signs",
+      buttons: "- +"
     }
   ],
   mergeDisplay: true,
