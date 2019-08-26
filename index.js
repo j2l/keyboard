@@ -9,8 +9,8 @@ let myKeyboard = new Keyboard({
     'θ α β ε ψ γ δ λ ω ρ',
     'א נ ג ד ה ו ז ח ט {enter}',
     'י כּ ל מ נ ס ע פּ =',
-    ' V I κ o צ ק ר ש ת',
-    '{shift} - { } [ ] ( ) +',
+    'V I κ o צ ק ר ש ת',
+    '{lock} - { } [ ] ( ) +',
     '< > {space}'
   ],
   'shift': [
