@@ -13,15 +13,21 @@ let myKeyboard = new Keyboard({
     '{lock} - { } [ ] ( ) +',
     '< > {space}'
   ],
-  'shift': [
-    '~ @ # % & * _ | {bksp}'    
+  'lock': [
+    '~ @ # % & * _ | {bksp}',
+    'θ α β ε ψ γ δ λ ω ρ',
+    'א נ ג ד ה ו ז ח ט {enter}',
+    'י כּ ל מ נ ס ע פּ =',
+    'V I κ o צ ק ר ש ת',
+    '{lock} - { } [ ] ( ) +',
+    '< > {space}' 
   ]
 },
   mergeDisplay: true,
   display: {
-  '{bksp}': 'efface',
-  '{enter}': ' < ',
-  '{shift}': 'shift'
+  '{bksp}': 'DEL',
+  '{enter}': ' SEND ',
+  '{lock}': 'SHIFT'
 }
 });
 
