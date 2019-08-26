@@ -8,7 +8,7 @@ input {
 }
 
 .simple-keyboard {
-    font-size: 1.5em;
+    font-size: 3em;
 }
 
 div.hg-button.hg-standardBtn.emotions {
@@ -17,7 +17,7 @@ div.hg-button.hg-standardBtn.emotions {
 }
 
 div.hg-button.hg-standardBtn.hebrew {
-  font-size: 2em;
+  font-size: 3em;
 }
 div.hg-button.hg-standardBtn.verbs {
   background: #A4D932;
@@ -25,5 +25,9 @@ div.hg-button.hg-standardBtn.verbs {
 }
 div.hg-button.hg-standardBtn.love {
   background: #F2BE22;
+  color: white;
+}
+div.hg-button.hg-standardBtn.signs {
+  background: red;
   color: white;
 }
