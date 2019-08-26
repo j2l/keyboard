@@ -11,14 +11,20 @@ input {
   max-width: 850px;
 }
 
-.my-theme {
+div.hg-button.hg-standardBtn.emotions {
   background: blue;
   color: white;
 }
 
-.simple-keyboard.my-theme .hg-button[aria-label] {
+div.hg-button.hg-standardBtn.hebrew {
+  font-size: 36px;
+}
+div.hg-button.hg-standardBtn.verbs {
   background: black;
   color: white;
+}
+div.hg-button.hg-standardBtn.love {
+  color: grey;
 }
 
 .simple-keyboard.my-theme .hg-button.my-button-outline {
