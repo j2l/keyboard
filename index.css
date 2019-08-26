@@ -7,6 +7,10 @@ input {
   box-sizing: border-box;
 }
 
+.simple-keyboard.hg-theme-default .hg-button {
+  height: 8vh;
+}
+
 .simple-keyboard {
     font-size: 2em;
 }
@@ -17,7 +21,7 @@ div.hg-button.hg-standardBtn.emotions {
 }
 
 div.hg-button.hg-standardBtn.hebrew {
-  font-size: 2em;
+  font-size: 1.8em;
 }
 div.hg-button.hg-standardBtn.verbs {
   background: #A4D932;
