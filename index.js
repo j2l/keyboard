@@ -51,7 +51,7 @@ let myKeyboard = new Keyboard({
 });
 
 document.querySelector(".input").addEventListener("input", event => {
-  keyboard.setInput(event.target.value);
+  myKeyboard.setInput(event.target.value);
 });
 
 function onChange(input) {
@@ -68,7 +68,7 @@ function handleShift() {
   let currentLayout = myKeyboard.options.layoutName;
   let shiftToggle = currentLayout === "default" ? "shift" : "default";
 
-  keyboard.setOptions({
+  myKeyboard.setOptions({
     layoutName: shiftToggle
   });
 }
