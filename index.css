@@ -8,25 +8,22 @@ input {
 }
 
 .simple-keyboard {
-  max-width: 850px;
+    font-size: 1.5em;
 }
 
 div.hg-button.hg-standardBtn.emotions {
-  background: blue;
+  background: #0476D9;
   color: white;
 }
 
 div.hg-button.hg-standardBtn.hebrew {
-  font-size: 36px;
+  font-size: 2em;
 }
 div.hg-button.hg-standardBtn.verbs {
-  background: black;
+  background: #A4D932;
   color: white;
 }
 div.hg-button.hg-standardBtn.love {
-  color: grey;
-}
-
-.simple-keyboard.my-theme .hg-button.my-button-outline {
-  border: 2px solid red;
+  background: #F2BE22;
+  color: white;
 }
