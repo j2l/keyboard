@@ -35,7 +35,7 @@ let myKeyboard = new Keyboard({
     },
     {
       class: "verbs",
-      buttons: "א ג ד ו ז ח י ל מ נ ע פּ צ ק ש ת"
+      buttons: "ω א ג ד ו ז ח י ל מ נ ע פּ צ ק ש ת"
     },
     {
       class: "love",
