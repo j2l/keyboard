@@ -57,7 +57,7 @@ function onKeyPress(button) {
 }
 
 function handleShift() {
-  let currentLayout = keyboard.options.layoutName;
+  let currentLayout = myKeyboard.options.layoutName;
   let shiftToggle = currentLayout === "default" ? "shift" : "default";
 
   keyboard.setOptions({
