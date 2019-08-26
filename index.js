@@ -26,12 +26,20 @@ let myKeyboard = new Keyboard({
 },
   buttonTheme: [
     {
-      class: "my-theme",
-      buttons: "Q W E R T Y q w e r t y"
+      class: "emotions",
+      buttons: "! A ^ W ξ Σ φ χ ט"
     },
     {
-      class: "hg-highlight",
-      buttons: "Q q"
+      class: "hebrew",
+      buttons: "א נ ג ד ה ו ז ח ט י כּ ל מ נ ס ע פּ צ ק ר ש ת"
+    },
+    {
+      class: "verbs",
+      buttons: "א ג ד ו ז ח י ל מ נ ע פּ צ ק ש ת"
+    },
+    {
+      class: "love",
+      buttons: "ג ד ט י פּ ק"
     }
   ],
   mergeDisplay: true,
