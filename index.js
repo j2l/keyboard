@@ -11,7 +11,7 @@ let myKeyboard = new Keyboard({
     'י כּ ל מ נ ס ע פּ =',
     ' V I κ o צ ק ר ש ת',
     '{shift} - { } [ ] ( ) +',
-    '< {space} >'
+    '< > {space}'
   ],
   'shift': [
     '~ @ # % & * _ | {bksp}'    
